@@ -11,18 +11,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Images/favicon.png" />
 </head>
 <body>
     <header>
         <nav>
             <button id="menuItem">
-                <img src="./Images/list.svg" alt="menu-icon">
+                <img src="./Images/icons/list.svg" alt="menu-icon">
             </button>
 
             <div id="login">
-                <img src="" alt="">
+                <img src="./Images/Icons/person-fill.svg" alt="User">
                 <span>Login</span>
-                <span>|</span>
+                <span id="lineBetween">|</span>
                 <span>Registro</span>
             </div>
         </nav>
@@ -37,29 +38,120 @@
     </header>
 
     <main>
+        <section id="apresentacao">
+            <div id="containersApresentacao">
+                <div class="container lightBlueContainer">
+                    <img src="./Images/coding.png" alt="Code">
+                    <p>Aprenda</p>
+                    <p>Programação</p>
+                </div>
+                <div class="container redContainer">
+                    <img src="./Images/game-development.png" alt="Challenges">
+                    <p>Conclua</p>
+                    <p>Seus desafios</p>
+                </div>
+                <div class="container purpleContainer">
+                    <img src="./Images//video-lecture.png" alt="Video">
+                    <p>Veja</p>
+                    <p>Vídeo aulas</p>
+                </div>
+                <div class="container brownContainer">
+                    <img src="./Images/best.png" alt="Test">
+                    <p>Passe</p>
+                    <p>No vestibular</p>
+                </div>
+            </div>
+        </section>
 
-        <div id="containersApresentacao">
-            <div class="container lightBlueContainer">
-                <img src="./Images/coding.png" alt="Code">
-                <p>Testando</p>
-                <p>Testando</p>
+        <section id="introducao">
+            <div class="intro">
+                <img src="./Images/pc-book.png" alt="Learn">
+                <h2>o lugar certo para aprender programação e testar seus conhecimentos.</h2>
             </div>
-            <div class="container redContainer">
-                <img src="./Images/game-development.png" alt="Challenges">
-                <p>Testando</p>
-                <p>Testando</p>
+            <div id="contentContainers">
+
+                <div class="contentInfo">
+                    <img src="./Images/ideas.png" alt="Brainstorm">
+                    <p>Aprenda em conjunto tendo colegas para ajudar</p>
+                    <p>Tenha o ambiente de faculdade de onde estiver, é um ambiente propício para a criação de redes de contatos e conexões profissionais</p>
+                </div>
+                
+                <div class="contentInfo">
+                    <img src="./Images/fast-time.png" alt="Clock">
+                    <p>Estudar junto para economizar tempo</p>
+                    <p>Através da distribuição das tarefas e responsabilidades, e a possibilidade de esclarecer dúvidas e receber ajuda em conjunto, acelerando o processo de aprendizagem.</p>
+                </div>
+
+                <div class="contentInfo">
+                    <img src="./Images/ideas.png" alt="Brainstorm">
+                    <p>Aprenda em conjunto tendo colegas para ajudar</p>
+                    <p>Tenha o ambiente de faculdade de onde estiver, é um ambiente propício para a criação de redes de contatos e conexões profissionais</p>
+                </div>
+
+                <div class="contentInfo">
+                    <img src="./Images/ideas.png" alt="Brainstorm">
+                    <p>Aprenda em conjunto tendo colegas para ajudar</p>
+                    <p>Tenha o ambiente de faculdade de onde estiver, é um ambiente propício para a criação de redes de contatos e conexões profissionais</p>
+                </div>
             </div>
-            <div class="container purpleContainer">
-                <img src="./Images//video-lecture.png" alt="Video">
-                <p>Testando</p>
-                <p>Testando</p>
+
+            <a href="/">
+                <button class="linkPagesButton">
+                    <span>Trilhas de aprendizagem</span>
+                    <img src="./Images/Icons/arrow-right.svg" alt="Arrow">
+                </button>
+            </a>
+        </section>
+
+        <section id="centroPagina">
+            <div class="intro">
+                <img src="./Images/rede.png" alt="Internet">
+                <h2>um site de estudos feito por estudantes!</h2>
             </div>
-            <div class="container brownContainer">
-                <img src="./Images/best.png" alt="Test">
-                <p>Testando</p>
-                <p>Testando</p>
+            <div class="aboutWebContainer">
+                <img src="./Images/ideas.png" alt="alt">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam vitae quod beatae natus repudiandae, hic inventore fugit atque soluta facere iusto facilis impedit aliquid error laudantium ullam voluptatum doloribus necessitatibus.</p>
             </div>
-        </div>
+
+            <div class="aboutWebContainer">
+                <img src="./Images/ideas.png" alt="alt">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam vitae quod beatae natus repudiandae, hic inventore fugit atque soluta facere iusto facilis impedit aliquid error laudantium ullam voluptatum doloribus necessitatibus.</p>
+            </div>
+
+            <a href="/">
+                <button class="linkPagesButton">
+                    <span>Saiba mais sobre nós</span>
+                    <img src="./Images/Icons/arrow-right.svg" alt="Arrow">
+                </button>
+            </a>
+        </section>
+
+        <section id="faculdade">
+            <div class="intro">
+                <img src="./Images/college-emb.png" alt="faculdade">
+                <div>
+                    <h2>Venha fazer parte da</h2>
+                    <span>fatec!</span>
+                </div>
+            </div>
+
+            <div id="college">
+                <div id="aboutCollege">
+                    <p>Fique por dentro das provas, vestibulares e saiba como se preparar para ingressar em uma faculdade pública do estado de São Paulo.</p>
+                </div>
+
+                <p>Tenha acesso à gabaritos, informações sobre a faculdade e muitos mais.</p>
+
+                <div id="imagesCollege">
+                    <img src="./Images/calendar.png" alt="Calendario">
+                    <img src="./Images/approved.png" alt="Test">
+                    <img src="./Images/books.png" alt="Books">
+                </div>
+
+                <button class="linkPagesButton">Clique e acesse agora informações sobre o vestibular</button>
+            </div>
+
+        </section>
 
     </main>
 
