@@ -1,0 +1,310 @@
+body {
+    font-family: 'Sora', sans-serif;
+}
+
+header {
+    background-color: var(--backgroundHomeColor);
+    color: #FFF;
+    padding-bottom: 3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+nav button {
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#login img {
+    width: 26px;
+    margin-right: 8px;
+}
+
+.lineBetween {
+    margin: 0 4px;
+    font-size: 9px;
+}
+
+nav button img {
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#titulo {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    max-width: 600px;
+    min-width: 300px;
+    align-items: center;
+    margin: 1rem auto 0 auto;
+}
+
+#titulo img {
+    width: 60px;
+    padding: 0 5px;
+}
+
+aside {
+    position: absolute;
+    top: 0;
+    background-color: #1E1E1E;
+    padding: 1rem 2rem;
+    width: 100%;
+    max-width: 370px;
+    height: 330px;
+    border-radius: 0 0 10px 0;
+    display: none;
+}
+
+aside button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 1rem;
+    top: 2.6rem;
+}
+
+aside a {
+    color: #FFF;
+    transition: all 0.2s ease-in;
+}
+
+aside a:hover {
+    color: var(--brownContainer);
+}
+
+aside ul li {
+    margin-top: 2rem;
+}
+
+#modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #1e1e1e88;
+    top: 0;
+    display: none;
+}
+
+#modalLogin {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    max-width: 750px;
+    height: 80vh;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    color: #FFF;
+    transition: all 1s ease-in-out;
+    position: relative;
+}
+
+#closeModal {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    background: none;
+    border: none;
+} 
+
+#icones {
+    display: flex;
+    flex-direction: column;
+    background-color: #838183;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+#icones img{
+    width: 50px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #000;
+}
+
+#closeModal img {
+    background: #838383;
+}
+
+#icones div {
+    margin: 0.5rem 0 0 3.8rem;
+}
+
+#loginModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loginModal h3, #loginModal input, #loginModal button {
+    margin-top: 2rem;
+}
+
+#loginModal input {
+    padding: 15px 12px;
+    color: #FFF;
+    width: 350px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+}  
+
+#loginModal p {
+    margin-top: 2.5rem;
+    font-weight: lighter;
+    opacity: 0.6;
+}
+
+#loginModal button {
+    background-color: var(--lightBlueContainer);
+}
+
+#loginModal button + button {
+    margin-top: 1.5rem;
+    background-color: var(--buttonBackground);
+}
+
+
+
+footer {
+    display: flex;
+    margin-top: 6rem;
+    flex-direction: column;
+    background-color: var(--backgroundHomeColor);
+    justify-content: center;
+    align-items: center;
+}
+
+#footerLogo {
+    display: flex;
+    align-items: center;
+}
+
+#footerLogo img {
+    width: 40px;
+}
+
+#footerLogo span {
+    font-weight: bolder;
+    font-size: 16px;
+    color: #FFF;
+}
+
+footer a {
+    color: #FFF;
+    margin-top: 0.9rem;
+}
+footer div + a {
+    margin-top: 2rem;
+}
+
+footer a:visited {
+    color: #FFF;
+}
+
+#pageInfo {
+    width: 100%;
+    background-color: var(--yellowContainer);
+    position: relative;
+}
+
+#pageInfo div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    padding: 2rem 0;
+}
+
+#pageInfo img{
+    max-width: 70px;
+    position: absolute;
+    margin-left: 2rem;
+    left: 0;
+}
+
+h2 {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+#sobreFaculdade { 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#local {
+    width: 45%;
+}
+
+#sobre {
+    width: 45%;
+}
+
+#logosFatec {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logosFatec img {
+    width: 110px;
+}
+
+#text {
+    margin-top: 2rem;
+}
+
+#headerP{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    font-size: 17px;;
+}
+
+#buttonLinks {
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    margin: 4rem auto 0 auto;
+    justify-content: space-around;
+}
+
+#buttonLinks a {
+    color: #000;
+    font-weight: bolder;
+}
+
+#buttonLinks button {
+    padding: 22px;
+    font-size: 18px;
+    background-color: var(--lightBlueContainer);
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 45%;
+}
+
+#buttonLinks button + button {
+    background-color: var(--redContainer);
+}

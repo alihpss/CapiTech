@@ -7,6 +7,7 @@
     <title>Capi.tech()</title>
 
     <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/patterns.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,6 +39,20 @@
     </header>
 
     <main>
+        <aside>
+            <ul>
+                <a href=""><li>Início</li></a>
+                <a href=""><li>Trilhas de aprendizagem</li></a>
+                <a href=""><li>Divulgação do Curso</li></a>
+                <a href="./Pages/vestibular.html"><li>Vestibular</li></a>
+                <a href=""><li>Sobre</li></a>
+            </ul>
+
+            <button id="closeAside">
+                <img src="./Images/Icons/close.svg" alt="Close">
+            </button>
+        </aside>
+
         <section id="apresentacao">
             <div id="containersApresentacao">
                 <div class="container lightBlueContainer">
@@ -151,12 +166,60 @@
                 <button class="linkPagesButton">Clique e acesse agora informações sobre o vestibular</button>
             </div>
 
+            
         </section>
+
+        <div id="modal">
+            <div id="modalLogin">
+                <div id="icones">
+                    <img src="./Images/Icons/person-fill.svg" alt="Login">
+                    <div>
+                        <span>Login</span>
+                        <span class="lineBetween">|</span>
+                        <span>Resgistre-se</span>
+                    </div>
+                    <button id="closeModal">
+                        <img src="./Images/Icons/close.svg" alt="Close modal">
+                    </button>
+                </div>
+
+                <div id="loginModal">
+                    <h3>Olá, seja bem vindo ao Capi.Tech</h3>
+                    
+                    <p>Faça o login ou registre-se para manter toda sua jornada salva.</p>
+            
+                    <input type="text" name="login" id="userLogin" placeholder="Digite o username ou o e-mail">
+            
+                    <input type="password" name="passwordLogin" id="passwordLogin" placeholder="Digite sua senha">
+        
+                    <button class="linkPagesButton">Login</button>
+                    <button class="linkPagesButton">Registre-se</button>
+                    
+                    <p>Esqueci minha senha</p>
+
+                </div>
+                
+            </div>
+
+        </div>
+
 
     </main>
 
     <footer>
-
+        <div id="footerLogo">
+            <span>Capi</span>
+            <img src="./Images/capi.svg" alt="Logo">
+            <span>Tech</span>
+        </div>
+        <a href="">Início</a>
+        <a href="">Divulgação do curso</a>
+        <a href="">Vestibular</a>
+        <a href="">Contato</a>
+        <a href="">Cadastre-se</a>
+        <a href="">Sobre</a>
     </footer>
+
+    <script src="./JS/home.js"></script>
 </body>
 </html>

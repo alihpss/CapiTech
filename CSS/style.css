@@ -1,13 +1,3 @@
-:root {
-    --backgroundHomeColor: #304076;
-    --lightBlueContainer: #1EA0D1;
-    --redContainer: #FB3535;
-    --purpleContainer: #D376EA;
-    --brownContainer: #D1AF57;
-    --buttonBackground: #63C770;
-    --middlePageContainer: #5da7db;
-}
-
 body {
     font-family: 'Sora', sans-serif;
 }
@@ -34,6 +24,7 @@ nav button {
 #login {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 #login img {
@@ -41,7 +32,7 @@ nav button {
     margin-right: 8px;
 }
 
-#lineBetween {
+.lineBetween {
     margin: 0 4px;
     font-size: 9px;
 }
@@ -79,6 +70,39 @@ header p {
     margin-top: 3rem;
     font-weight: bolder;
     font-size: 25px;
+}
+
+aside {
+    position: absolute;
+    top: 0;
+    background-color: #1E1E1E;
+    padding: 1rem 2rem;
+    width: 100%;
+    max-width: 370px;
+    height: 330px;
+    border-radius: 0 0 10px 0;
+    display: none;
+}
+
+aside button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 1rem;
+    top: 2.6rem;
+}
+
+aside a {
+    color: #FFF;
+    transition: all 0.2s ease-in;
+}
+
+aside a:hover {
+    color: var(--brownContainer);
+}
+
+aside ul li {
+    margin-top: 2rem;
 }
 
 #containersApresentacao {
@@ -329,4 +353,134 @@ header p {
     padding: 17px;
     border-radius: 8px;
 }
+
+footer {
+    display: flex;
+    margin-top: 6rem;
+    flex-direction: column;
+    background-color: var(--backgroundHomeColor);
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 1rem 0;
+}
+
+#footerLogo {
+    display: flex;
+    align-items: center;
+}
+
+#footerLogo img {
+    width: 40px;
+}
+
+#footerLogo span {
+    font-weight: bolder;
+    font-size: 16px;
+    color: #FFF;
+}
+
+footer a {
+    color: #FFF;
+    margin-top: 0.9rem;
+}
+footer div + a {
+    margin-top: 2rem;
+}
+
+footer a:visited {
+    color: #FFF;
+}
+
+#modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #1e1e1e88;
+    top: 0;
+    display: none;
+}
+
+#modalLogin {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    max-width: 750px;
+    height: 80vh;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    color: #FFF;
+    transition: all 1s ease-in-out;
+    position: relative;
+}
+
+#closeModal {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    background: none;
+    border: none;
+} 
+
+#icones {
+    display: flex;
+    flex-direction: column;
+    background-color: #838183;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+#icones img{
+    width: 50px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #000;
+}
+
+#closeModal img {
+    background: #838383;
+}
+
+#icones div {
+    margin: 0.5rem 0 0 3.8rem;
+}
+
+#loginModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loginModal h3, #loginModal input, #loginModal button {
+    margin-top: 2rem;
+}
+
+#loginModal input {
+    padding: 15px 12px;
+    color: #FFF;
+    width: 350px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+}  
+
+#loginModal p {
+    margin-top: 2.5rem;
+    font-weight: lighter;
+    opacity: 0.6;
+}
+
+#loginModal button {
+    background-color: var(--lightBlueContainer);
+}
+
+#loginModal button + button {
+    margin-top: 1.5rem;
+    background-color: var(--buttonBackground);
+}
+
+
 
