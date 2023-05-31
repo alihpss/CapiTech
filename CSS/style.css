@@ -79,9 +79,10 @@ aside {
     padding: 1rem 2rem;
     width: 100%;
     max-width: 370px;
-    height: 330px;
+    height: 280px;
     border-radius: 0 0 10px 0;
     display: none;
+    transition: all 0.2s ease-in-out;
 }
 
 aside button {
@@ -398,6 +399,8 @@ footer a:visited {
     background-color: #1e1e1e88;
     top: 0;
     display: none;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
 }
 
 #modalLogin {
@@ -480,6 +483,68 @@ footer a:visited {
 #loginModal button + button {
     margin-top: 1.5rem;
     background-color: var(--buttonBackground);
+}
+
+@media screen and (max-width: 540px) {
+    header {
+        padding-bottom: 9rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    header p {
+        font-size: 18px !important;
+    }
+
+    #containersApresentacao {
+        justify-content: space-between;
+        gap: 0;
+        width: 98%;
+        top: -5rem;
+    }
+
+    .container {
+        width: 23%;
+    }
+
+    p, a {
+        font-size: 11px !important;
+    }
+
+    .container p + p {
+        font-size: 10px;
+    }
+
+    #contentContainers {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 300px;
+        gap: 32px 0;
+    }
+
+    #aboutCollege {
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 350px) {
+
+    #titulo {
+        min-width: none;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+    
+    .container p + p {
+        font-size: 8px !important;
+    }
+
+
 }
 
 

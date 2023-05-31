@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="../CSS/reset.css">
+  <link rel="stylesheet" href="../CSS/patterns.css">
+  <link rel="stylesheet" href="../CSS/trilhas.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="../Images/favicon.png">
+</head>
+
+<body>
+  <header>
+    <nav>
+        <button id="menuItem">
+            <img src="../Images/icons/list.svg" alt="menu-icon">
+        </button>
+
+        
+        
+        <div id="login">
+            <img src="../Images/Icons/person-fill.svg" alt="User">
+            <span>Login</span>
+            <span id="lineBetween">|</span>
+            <span>Registro</span>
+        </div>
+    </nav>
+
+    <div id="titulo">
+        <span>capi</span>
+        <img src="../Images/capi.png" alt="logo">
+        <span>tech</span>
+    </div>
+</header>
+
+<main>
+  <aside>
+    <ul>
+      <a href="../index.html"><li>Início</li></a>
+      <a href="./trilhas.html"><li>Trilhas de aprendizagem</li></a>
+      <a href="./vestibular.html"><li>Vestibular</li></a>
+      <a href="./sobre"><li>Sobre</li></a>
+    </ul>
+
+      <button id="closeAside">
+          <img src="./Images/Icons/close.svg" alt="Close">
+      </button>
+  </aside>
+
+  <div id="modal">
+      <div id="modalLogin">
+          <div id="icones">
+              <img src="./Images/Icons/person-fill.svg" alt="Login">
+              <div>
+                  <span>Login</span>
+                  <span class="lineBetween">|</span>
+                  <span>Resgistre-se</span>
+              </div>
+              <button id="closeModal">
+                  <img src="./Images/Icons/close.svg" alt="Close modal">
+              </button>
+          </div>
+
+          <div id="loginModal">
+              <h3>Olá, seja bem vindo ao Capi.Tech</h3>
+              
+              <p>Faça o login ou registre-se para manter toda sua jornada salva.</p>
+      
+              <input type="text" name="login" id="userLogin" placeholder="Digite o username ou o e-mail">
+      
+              <input type="password" name="passwordLogin" id="passwordLogin" placeholder="Digite sua senha">
+  
+              <button class="linkPagesButton">Login</button>
+              <button class="linkPagesButton">Registre-se</button>
+              
+              <p>Esqueci minha senha</p>
+          </div>
+      </div>
+  </div>
+
+  <div id="pageInfo">
+    <div>
+        <img src="../Images/best.png" alt="">
+        <h1>Trilhas de Estudo</h1>
+    </div>
+  </div>
+
+  <section id="pageContent">
+
+    <div class="pageContentItems">
+      <h3>Trilha Iniciante</h3>
+      <a href="trilhaIniciante.html">
+        <div class="trails begginerTrail">
+          <div id="begginerTrailImgs">
+            <img src="../Images/books.png" alt="">
+            <img src="../Images/coding.png" alt="">
+          </div>
+          <div>
+            <p>Durante o percurso desta trilha, iremos te apresentar os principais passos para dominar a lógica de programação e ingressar no universo do desenvolvimento web!</p>
+            <br>
+            <ul>
+              <p>Tecnologias apresentadas durante a trilha:</p>
+              <br>
+              <li>- Algoritmos e lógica de programação</li>
+              <li>- HTML5</li>
+              <li>- CSS3</li>
+              <li>- Javascript</li>
+            </ul>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="pageContentItems">
+      <h3>Trilha Intermediário</h3>
+      <a href=""><div class="trails intermediateTrail">Em construção...</div></a>
+    </div>
+    
+    <div class="pageContentItems">
+      <h3>Trilha Avançado</h3>
+      <a href=""><div class="trails advancedTrail">Em construção...</div></a>
+    </div>
+    
+
+  </section>
+
+
+</main>
+
+<footer>
+  <div id="footerLogo">
+      <span>Capi</span>
+      <img src="../Images/capi.svg" alt="Logo">
+      <span>Tech</span>
+  </div>
+  <a href="../index.html">Início</a>
+  <a href="./trilhas.html">Trilhas de aprendizagem</a>
+  <a href="./vestibular.html">Vestibular</a>
+  <a href="./sobre.html">Sobre nós</a>
+</footer>
+</body>
+</html>

@@ -23,10 +23,18 @@ closeAside.addEventListener('click', () => {
 
 
 function setModalInvisible(modal) {
-    modal.style.display = 'none';
+    modal.style.opacity = 0;
+
+    setTimeout(() => {
+        modal.style.display = 'none';
+    }, 700);
 }
 
 function setModalVisible(modal) {
     modal.style.display = 'flex';
+    
+    setTimeout(() => {
+        modal.style.opacity = 1;
+    }, 200);
 }
 

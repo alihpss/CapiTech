@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="../CSS/reset.css">
+  <link rel="stylesheet" href="../CSS/patterns.css">
+  <link rel="stylesheet" href="../CSS/trilhaIniciante.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="../Images/favicon.png">
+</head>
+
+<body>
+  <header>
+    <nav>
+        <button id="menuItem">
+            <img src="../Images/icons/list.svg" alt="menu-icon">
+        </button>
+
+        
+        
+        <div id="login">
+            <img src="../Images/Icons/person-fill.svg" alt="User">
+            <span>Login</span>
+            <span id="lineBetween">|</span>
+            <span>Registro</span>
+        </div>
+    </nav>
+
+    <div id="titulo">
+        <span>capi</span>
+        <img src="../Images/capi.png" alt="logo">
+        <span>tech</span>
+    </div>
+</header>
+
+<main>
+  <aside>
+    <ul>
+      <a href="../index.html"><li>Início</li></a>
+      <a href="./trilhas.html"><li>Trilhas de aprendizagem</li></a>
+      <a href="./vestibular.html"><li>Vestibular</li></a>
+      <a href="./sobre"><li>Sobre</li></a>
+    </ul>
+
+      <button id="closeAside">
+          <img src="./Images/Icons/close.svg" alt="Close">
+      </button>
+  </aside>
+
+  <div id="modal">
+      <div id="modalLogin">
+          <div id="icones">
+              <img src="./Images/Icons/person-fill.svg" alt="Login">
+              <div>
+                  <span>Login</span>
+                  <span class="lineBetween">|</span>
+                  <span>Resgistre-se</span>
+              </div>
+              <button id="closeModal">
+                  <img src="./Images/Icons/close.svg" alt="Close modal">
+              </button>
+          </div>
+
+          <div id="loginModal">
+              <h3>Olá, seja bem vindo ao Capi.Tech</h3>
+              
+              <p>Faça o login ou registre-se para manter toda sua jornada salva.</p>
+      
+              <input type="text" name="login" id="userLogin" placeholder="Digite o username ou o e-mail">
+      
+              <input type="password" name="passwordLogin" id="passwordLogin" placeholder="Digite sua senha">
+  
+              <button class="linkPagesButton">Login</button>
+              <button class="linkPagesButton">Registre-se</button>
+              
+              <p>Esqueci minha senha</p>
+          </div>
+      </div>
+  </div>
+
+  <div id="pageInfo">
+    <div>
+        <img id="bookImg" src="../Images/books.png" alt="">
+        <h1>Trilha Iniciante</h1>
+    </div>
+  </div>
+
+  <section id="pageContent">
+    <div id="technologiesContainer">
+
+      <div class="techItem">
+        <img class="techImg" src="../Images/TechIcons/algoritmo.png" alt="">
+        <a href=""><h3>Trilha Lógica de Programação!</h3></a>
+      </div>
+
+      <div class="techItem">
+        <img class="techImg" src="../Images/TechIcons/html-5.png" alt="">
+        <a href=""><h3>Trilha HTML5!</h3></a>
+      </div>
+
+      <div class="techItem">
+        <img class="techImg" src="../Images/TechIcons/css-3.png" alt="">
+        <a href=""><h3>Trilha CSS3!</h3></a>
+      </div>
+
+      <div class="techItem">
+        <img class="techImg" src="../Images/TechIcons/js.png" alt="">
+        <a href=""><h3>Trilha Javascript!</h3></a>
+      </div>
+
+    </div>
+  </section>
+
+
+</main>
+
+<footer>
+  <div id="footerLogo">
+      <span>Capi</span>
+      <img src="../Images/capi.svg" alt="Logo">
+      <span>Tech</span>
+  </div>
+
+  <a href="../index.html">Início</a>
+  <a href="./trilhas.html">Trilhas de aprendizagem</a>
+  <a href="./vestibular.html">Vestibular</a>
+  <a href="./sobre.html">Sobre nós</a>
+
+</footer>
+</body>
+</html>

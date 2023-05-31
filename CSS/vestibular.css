@@ -68,9 +68,10 @@ aside {
     padding: 1rem 2rem;
     width: 100%;
     max-width: 370px;
-    height: 330px;
+    height: 280px;
     border-radius: 0 0 10px 0;
     display: none;
+    transition: all 0.2s ease-in-out;
 }
 
 aside button {
@@ -101,6 +102,8 @@ aside ul li {
     background-color: #1e1e1e88;
     top: 0;
     display: none;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
 }
 
 #modalLogin {
@@ -185,8 +188,6 @@ aside ul li {
     background-color: var(--buttonBackground);
 }
 
-
-
 footer {
     display: flex;
     margin-top: 6rem;
@@ -253,10 +254,13 @@ h2 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 #local {
     width: 45%;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 #sobre {
@@ -269,7 +273,7 @@ h2 {
 }
 
 #logosFatec img {
-    width: 110px;
+    width: 70px;
 }
 
 #text {
@@ -307,4 +311,14 @@ h2 {
 
 #buttonLinks button + button {
     background-color: var(--redContainer);
+}
+
+footer {
+    padding: 3rem 0 1rem 0;
+}
+
+@media screen and (max-width: 580px) {
+    #headerP + p {
+        font-size: 11px;;
+    }
 }
