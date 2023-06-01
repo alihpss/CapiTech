@@ -111,7 +111,7 @@ aside ul li {
     right: 0;
     width: 90%;
     max-width: 750px;
-    height: 80vh;
+    height: 85vh;
     background-color: #1E1E1E;
     border-radius: 10px;
     color: #FFF;
@@ -323,6 +323,8 @@ h2 {
 
 .fotos {
     display: flex;
+    flex-wrap: wrap;
+    min-width: 160px;
     width: 20%;
     padding: 20px;
     flex-direction: column;
@@ -352,7 +354,8 @@ h2 {
     display: flex;
     padding: 30px;
     border-radius: 20px;
-    width: 60%;
+    width: 95%;
+    max-width: 800px;
     background-color: #04D9B3;
     flex-direction: column;
     flex-wrap: nowrap;
