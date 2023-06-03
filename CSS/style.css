@@ -402,6 +402,7 @@ footer a:visited {
     display: none;
     transition: all 0.2s ease-in-out;
     opacity: 0;
+    z-index: 1;
 }
 
 #modalLogin {
@@ -510,7 +511,7 @@ footer a:visited {
         width: 23%;
     }
 
-    p, a {
+    p {
         font-size: 11px !important;
     }
 

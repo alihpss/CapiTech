@@ -124,6 +124,7 @@ body {
     display: none;
     transition: all 0.2s ease-in-out;
     opacity: 0;
+    z-index: 1;
   }
   
   #modalLogin {
@@ -257,29 +258,30 @@ body {
     align-items: center;
     justify-content: center;
     color: #FFF;
-    padding: 2rem 0;
+    padding: 1rem 0 1.5rem 0;
   }
   
-  #pageInfo img{
+  #backToTrails img{
     rotate: 180deg;
   }
 
-  #pageInfo span {
+  #backToTrails span {
     margin-left: 0.4rem;
     color: #000;
     transition: all 0.4s ease-in-out;
   }
 
-  #pageInfo a {
-    position: absolute;
+  #backToTrails {
+    position: relative;
     top: 0.5rem;
     left: 0.5rem;
     display: flex;
     align-items: center;
+    width: 240px;
   }
 
-  #pageInfo span:hover {
-    color: #FFF;
+  #backToTrails span:hover {
+    color: var(--lightBlueContainer);
   }
 
   h1 {
@@ -325,5 +327,37 @@ body {
 
 #files {
     display: flex;
+    width: 95%;
+    max-width: 700px;
+    margin: 1.5rem auto;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3rem 0;
+}
+
+#physiqueMaterials {
+  max-width: 800px;
+  margin: auto;
+}
+
+.filesContent img{
+    width: 100px;
+}
+
+.filesContent {
+  color: #000;
+}
+
+.filesContent div img + p {
+  margin-top: 10px;
+}
+
+#physiqueMaterials h3 {
+  margin: 0 0 4rem 1rem;
+}
+
+a:visited {
+  color: #000;
 }
 

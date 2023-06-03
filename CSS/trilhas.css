@@ -124,6 +124,7 @@ aside ul li {
   display: none;
   transition: all 0.2s ease-in-out;
   opacity: 0;
+  z-index: 1;
 }
 
 #modalLogin {

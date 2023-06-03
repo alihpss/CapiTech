@@ -107,6 +107,7 @@ aside ul li {
     display: none;
     transition: all 0.2s ease-in-out;
     opacity: 0;
+    z-index: 1;
 }
 
 #modalLogin {
@@ -309,31 +310,6 @@ h2 {
     font-size: 17px;;
 }
 
-#buttonLinks {
-    width: 90%;
-    max-width: 800px;
-    display: flex;
-    margin: 4rem auto 0 auto;
-    justify-content: space-around;
-}
-
-#buttonLinks a {
-    color: #000;
-    font-weight: bolder;
-}
-
-#buttonLinks button {
-    padding: 22px;
-    font-size: 18px;
-    background-color: var(--lightBlueContainer);
-    border: 1px solid black;
-    border-radius: 8px;
-    width: 45%;
-}
-
-#buttonLinks button + button {
-    background-color: var(--redContainer);
-}
 
 #photosContainer {
     display: flex;
@@ -384,7 +360,6 @@ h2 {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    max-width: 1200px;
 }
 
 .container-about p{
