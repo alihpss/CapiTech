@@ -27,6 +27,11 @@ nav button {
     cursor: pointer;
 }
 
+#login div {
+    display: flex;
+    align-items: center;
+}
+
 #login img {
     width: 26px;
     margin-right: 8px;
@@ -490,6 +495,10 @@ footer a:visited {
 @media screen and (max-width: 540px) {
     header {
         padding-bottom: 9rem;
+    }
+    
+    #login div {
+        display: none;
     }
 
     h1 {

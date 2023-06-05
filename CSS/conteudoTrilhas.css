@@ -27,6 +27,11 @@ body {
     align-items: center;
     cursor: pointer;
   }
+
+  #login div {
+    display: flex;
+    align-items: center;
+  }
   
   #login img {
     width: 26px;
@@ -327,16 +332,14 @@ body {
 
 #files {
     display: flex;
-    width: 95%;
-    max-width: 700px;
     margin: 1.5rem auto;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 3rem 0;
+    gap: 3rem 0.8rem;
 }
 
-#physiqueMaterials {
+#physiqueMaterials, #videoMaterials {
   max-width: 800px;
   margin: auto;
 }
@@ -353,11 +356,32 @@ body {
   margin-top: 10px;
 }
 
-#physiqueMaterials h3 {
+#physiqueMaterials h3, #videoMaterials h3 {
   margin: 0 0 4rem 1rem;
 }
 
 a:visited {
-  color: #000;
+  color: #FFF;
 }
 
+#videoMaterials {
+  margin-top: 6rem;
+}
+
+.videoContent {
+  margin-bottom: 3rem;
+}
+
+.videoContent p {
+  margin: 2rem 0 0 1rem;
+}
+
+.videoContent p + p {
+  margin: 1.5rem 0 0 1rem;
+}
+
+@media screen and (max-width: 580px) {
+  #login div {
+    display: none;
+  }
+}

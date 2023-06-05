@@ -28,6 +28,11 @@ nav button {
     cursor: pointer;
 }
 
+#login div {
+    display: flex;
+    align-items: center;
+}
+
 #login img {
     width: 26px;
     margin-right: 8px;
@@ -384,4 +389,10 @@ h2 {
 .container-aboutfromcontainer img{
     width: 70px; 
     padding: 10px 0;
+}
+
+@media screen and (max-width: 580px) {
+    #login div {
+        display: none;
+    }
 }

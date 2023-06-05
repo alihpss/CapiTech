@@ -28,6 +28,11 @@ nav button {
   cursor: pointer;
 }
 
+#login div {
+  display: flex;
+  align-items: center;
+}
+
 #login img {
   width: 26px;
   margin-right: 8px;
@@ -345,8 +350,12 @@ footer {
   }
 }
 
-@media (max-width:500px){
+@media (max-width:580px){
   #bookImg{
+    display: none;
+  }
+
+  #login div {
     display: none;
   }
 }
