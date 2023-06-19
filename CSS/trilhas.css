@@ -353,4 +353,8 @@ footer {
   #login div {
     display: none;
   }
+
+  #pageInfo img{
+    margin-left: 0;
+}
 }

@@ -365,5 +365,9 @@ footer {
     width: 80%;
     min-width: 100px;
   }
+
+  #pageInfo img{
+    margin-left: 0;
+  }
 }
 
