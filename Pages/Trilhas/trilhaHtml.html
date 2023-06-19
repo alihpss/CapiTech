@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capi.Tech()</title>
+
+    <link rel="stylesheet" href="../../CSS/reset.css">
+    <link rel="stylesheet" href="../../CSS/patterns.css">
+    <link rel="stylesheet" href="../../CSS/conteudoTrilhas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../../Images/favicon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="menuItem">
+                <img src="../../Images/icons/list.svg" alt="menu-icon">
+            </button>
+
+            
+            
+            <div id="login">
+                <img src="../../Images/Icons/person-fill.svg" alt="User">
+                <span>Login</span>
+                <span id="lineBetween">|</span>
+                <span>Registro</span>
+            </div>
+        </nav>
+
+        <div id="titulo">
+            <span>capi</span>
+            <img src="../../Images/capi.png" alt="logo">
+            <span>tech</span>
+        </div>
+    </header>
+
+    <main>
+
+        <aside>
+                <ul>
+                  <a href="../../index.html"><li>Início</li></a>
+                  <a href="../trilhas.html"><li>Trilhas de aprendizagem</li></a>
+                  <a href="../vestibular.html"><li>Vestibular</li></a>
+                  <a href="../sobre.html"><li>Sobre</li></a>
+                </ul>
+        
+                  <button id="closeAside">
+                      <img src="../../Images/Icons/close.svg" alt="Close">
+                  </button>
+        </aside>
+        
+        <div id="modal">
+                  <div id="modalLogin">
+                      <div id="icones">
+                          <img src="../../Images/Icons/person-fill.svg" alt="Login">
+                          <div>
+                              <span>Login</span>
+                              <span class="lineBetween">|</span>
+                              <span>Resgistre-se</span>
+                          </div>
+                          <button id="closeModal">
+                              <img src="../../Images/Icons/close.svg" alt="Close modal">
+                          </button>
+                      </div>
+        
+                      <div id="loginModal">
+                          <h3>Olá, seja bem vindo ao Capi.Tech</h3>
+                          
+                          <p>Faça o login ou registre-se para manter toda sua jornada salva.</p>
+                  
+                          <input type="text" name="login" id="userLogin" placeholder="Digite o username ou o e-mail">
+                  
+                          <input type="password" name="passwordLogin" id="passwordLogin" placeholder="Digite sua senha">
+              
+                          <button class="linkPagesButton">Login</button>
+                          <button class="linkPagesButton">Registre-se</button>
+                          
+                          <p>Esqueci minha senha</p>
+                      </div>
+                  </div>
+        </div>
+
+        <div id="pageInfo">
+            <div>
+                <h1>HTML5</h1>
+            </div>
+        </div>
+        
+        <a href="../trilhaIniciante.html" id="backToTrails">
+            <img src="../../Images/Icons/arrow-right.svg" alt="Arrow">
+            <span>Voltar para trilha iniciante</span>
+        </a>
+
+        <div id="trailLogoIntro"></div>
+
+        <section id="intro">
+            <div class="explanation">
+                <h2>Primeiros passos:</h2>
+    
+                <p>
+                  Criada pelo britânico Tim Berners-Lee, o HTML, ou HiperText Markup Language (Linguagem de Marcação de Hipertexto) é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.
+
+                    <br>
+                    <br>
+
+                    Ao visitar uma página simples na web, você pode perceber que existem diferentes distribuições e tamanhos para títulos, parágrafos, imagens, vídeos e qualquer outro elemento. Essa estrutura é estabelecida através do HTML. No inicio da web, era comum encontrar sites apenas contendo textos e imagens simples, com estrutura básica e sem estilizações. Porém, nos dias atuais, muito dificilmente você encontrará sites que possuam apenas elementos HTML. Portanto, podemos considerar o HTML o “esqueleto” da sua página.
+                  
+                    <br><br>
+
+                    Para seu funcionamento, é necessário um documento HTML, ou seja, um documento com a extensão ".html" ou ".htm", que o navegador faz a leitura do arquivo e renderiza o seu conteúdo para que o usuário final possa visualizá-lo. Os arquivos ".html" podem ser visualizados em qualquer navegador, como Google Chrome, Safari, ou Mozilla Firefox...
+                </p>
+    
+            </div>
+            
+            <div class="explanation">
+                <h3>Tags HTML:</h3>
+
+                <p>
+                  Conforme explicado anteriormente, este documento consiste em uma série de tags. As tags são códigos que definem toda a estrutura da página, tais como o seu tamanho, a fonte da letra, as cores, as quebras de linha e etc. A maioria dos elementos do documento HTML são compostos por uma estrutura de abertura e uma de fachamento, como < tags > e  < / tags > Há também tags de estrutura única, como a  tag < br /> que realiza uma quebra de linha.
+
+                </p>
+
+
+                <h3>Principais Tags do HTMl</h3>
+
+                <div>
+                  <p><b>ALgumas das principais tags do HTML são:</b></p>
+
+                  <br>
+
+                  <ul>
+                    <li>
+                      <b>< head ></b>: local para declarar todas informações, como título e metadados da sua página;– local para declarar todas informações, como título e metadados da sua página;
+                    </li>
+                    <br>
+                    <li>
+                      <b>< body ></b>: local para declarar todos os elementos que irão compor o corpo da página;
+                    </li>
+                    <br>
+                    <li>
+                      <b>< h1 >,< h2 >,< h3 >,< h4 >,< h5 > e < h6 > </b>: Tags para definir um título e subtítulos, variando de 1 a 6, sendo h1 o título mais importante e h6 o de menor importância;
+                    </li>
+                    <br>
+                    <li>
+                      <b> < p ></b>: Tag para definir um parágrafo;
+                    </li>
+                    <br>
+                    <li>
+                      <b> < a ></b>:  Tag de link, junto ao atributo href=””;
+                    </li>
+                    <br>
+                    <li>
+                      <b> < header ></b>: Define um cabeçalho;
+                    </li>
+                    <br>
+                    <li>
+                      <b>< section ></b>: Define uma seção;
+                    </li>
+                    <br>
+                    <li>
+                      <b> < div ></b>: Define uma divisão;
+                    </li>
+                    <br>
+                    <li>
+                      <b> < footer ></b>: Define um rodapé;
+                    </li>
+                    <br>
+                    <li>
+                      <b>< nav ></b>: Define uma área de navegação (como menus);
+                    </li>
+                    <br>
+                    <li>
+                      <b> < table ></b>: Define uma tabela;
+                    </li>
+                    <br>
+                    <li>
+                      <b> < ol ></b>: Define uma lista ordenada;
+                    </li>
+                    <br>
+                    <li>
+                      <b>< ul ></b>: Define uma lista não ordenada;
+                    </li>
+                    <br>
+                    <li>
+                      <b>< li ></b>: Define o item de uma lista;
+                    </li>
+                    <br>
+                    <li>
+                      <b> < form ></b>: Define um formulário;
+                    </li>
+                    <br>
+                    <li>
+                      <b> < input ></b>: Define os campos de um formulário;
+                    </li>
+                    <br>
+                    <li>
+                      <b> < button ></b>: Define um botão;
+                    </li>
+                    <br>
+                    <li>
+                      <b> < img ></b>: Permite inserir uma imagem no seu documento;
+                    </li>
+                  </ul>
+                </div>
+
+                <br>
+                <div>
+                  <a style="color: rgb(0, 0, 107);" target="_blank" href="https://www.homehost.com.br/blog/tutoriais/o-que-e-html/"><p>Clique aqui para mais instruções sobre HTML!</p></a>
+                </div>
+                <br>
+                <div>
+                  <a style="color: rgb(0, 0, 107);" target="_blank"  href="https://www.w3schools.com/html/default.asp">Link para a documentação sobre HTML (w3Schools)</a>
+                </div>
+                <br>
+                <div>
+                  <a style="color: rgb(0, 0, 107);" target="_blank"  href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">Link para a documentação sobre HTML (MDN)</a>
+                </div>
+                
+                
+              </div>
+              
+        </section>
+
+        <section id="materials">
+
+          <div id="videoMaterials">
+            <h3>Para se aprofundar no assunto, temos algumas sugestões como recomendação:</h3>
+
+            <div class="videoContent">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/epDCjksKMok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+
+                <p>
+                      O curso de HTML5 do professor Gustavo Guanabara apresenta as informações necessárias para você entender os diversos conceitos da cosntrução de websites, estruturação de um documento HTMl, e a união desse documento com o CSS e o Javascript.               
+                    
+                </p>
+
+                <p>
+                      Link do curso de HTML: <a href="https://youtu.be/epDCjksKMok" target="_blank" style="color: #00a4d6">Clique aqui!</a>
+                </p>
+            </div>
+
+            <div class="videoContent">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <p>
+                  Agora você tem conhecimento sobre a base da criação de websites utillizando HTML, CSS e Javascript. Dessa forma, recomendamos o curso de HTML e CSS do professor Guanabara, que trabalha com conceitos mais recentes e profundos dessas linguagens, além de reforçar a base foi foi passada no curso anterior.
+                </p>
+
+                <p>
+                  <b>Obs</b>: O curso de HTML e CSS apresenta 5 módulos, até o momento, foram disponibilizados 4 desses 5 módulos.
+                </p>
+
+                <p>
+                  Link do curso de HTML e CSS: <a href="https://youtu.be/Ejkb_YpuHWs" target="_blank" style="color: #00a4d6">Clique aqui!</a>
+                </p>
+              </div>
+          </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div id="footerLogo">
+            <span>Capi</span>
+            <img src="../../Images/capi.svg" alt="Logo">
+            <span>Tech</span>
+        </div>
+  
+        <a href="../../index.html">Início</a>
+        <a href="../trilhas.html">Trilhas de aprendizagem</a>
+        <a href="../vestibular.html">Vestibular</a>
+        <a href="../sobre.html">Sobre nós</a>
+  
+    </footer>
+  
+    <script src="../../JS/modals.js"></script>
+    
+</body>
+</html>
